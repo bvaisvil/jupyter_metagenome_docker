@@ -8,6 +8,3 @@ RUN conda install -c bioconda bioconductor-deseq2
 RUN conda install -c bioconda bioconductor-biomformat 
 RUN conda install -c bioconda bioconductor-genomeinfodb 
 RUN conda install -c bioconda bioconductor-iranges 
-
-COPY install.R /app/.
-RUN Rscript install.R
